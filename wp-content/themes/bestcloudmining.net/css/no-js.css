@@ -1,0 +1,4 @@
+.versus .versuslist { display: block; }
+.versus .open-box .arrow { display: none; }
+
+header nav.mainmenu ul li:hover .sub-menu { visibility: visible; opacity: 1; }

@@ -1,0 +1,53 @@
+/* Wimpel */
+.wimpel {
+    display: block;
+    margin: 5px auto;
+    padding: 2px 0; 
+    background-color: #ccc;
+    color: #000;   
+    text-align: center; 
+    font-weight: bold; 
+    height: 20px;
+    overflow: hidden;
+    max-width: 95%;   
+}
+.wimpel-content {
+    display: inline-block;
+    text-align: center; 
+    max-width: 145px;
+    overflow: hidden;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    font-size: 110%; 
+    line-height: 120%;
+}
+
+@media all and (max-width: 590px) {
+    .wimpel-content { max-width: 100%; line-height: 120%; } 
+}
+
+
+.wimpel-end-left, .wimpel-end-right { width: 13px; height: 20px; background-repeat: no-repeat; }
+.wimpel-end-left {
+    float: left;
+    background-image: url('../images/icons/wimpel-ecken.html');
+    background-position: top right;
+}
+.vergleich .row.tbody:hover .wimpel-end-left, .table.sc-provider .row:hover .wimpel-end-left { background-position: bottom right; }
+
+.wimpel-end-right {
+    float: right;
+    background-image: url('../images/icons/wimpel-ecken.html');
+    background-position: top left;
+}
+.vergleich .row.tbody:hover .wimpel-end-right, .table.sc-provider .row:hover .wimpel-end-right { background-position: bottom left; }
+
+.wimpel-blue {
+    background-color: #52A4EA;
+    color: #fff;
+}
+
+.wimpel-green .wimpel-content {
+    background-color: #60C556;
+    color: #000;
+}
